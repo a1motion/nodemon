@@ -26,6 +26,7 @@
   ],
   "license": "MIT",
   "main": "./lib/nodemon",
+  "private": false,
   "scripts": {
     "coverage": "istanbul cover _mocha -- --timeout 30000 --ui bdd --reporter list test/**/*.test.js",
     "lint": "jscs lib/**/*.js -v",
@@ -59,5 +60,5 @@
     "undefsafe": "^2.0.2",
     "update-notifier": "^3.0.1"
   },
-  "version": "2.0.0"
+  "version": "2.0.1"
 }
